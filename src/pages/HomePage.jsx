@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import CS1 from '../images/CT1.jpg'
+import GS1 from '../images/GS1.jpg'
 
 export default function HomePage() {
   const features = [
@@ -72,7 +72,7 @@ export default function HomePage() {
               <div className="absolute inset-x-0 top-0 h-56 bg-gradient-to-br from-pink-100 via-slate-100 to-white" />
               <div className="relative rounded-[1.75rem] overflow-hidden bg-slate-950/95 shadow-2xl">
                   <img
-                    src={CS1}
+                    src={GS1}
                     alt="Bacteria sample"
                     className="h-[520px] w-full object-cover"
                   />
