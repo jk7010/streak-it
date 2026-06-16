@@ -1,32 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import GS1 from '../images/GS1.jpg'
+import CS1 from '../images/CT1.jpg'
+import sugarImg from '../images/suger.jpeg'
 
 const experimentCards = [
   {
     title: 'Gram Staining',
-    description: 'Learn and practice the Gram staining technique to differentiate between Gram-positive and Gram-negative bacteria.',
+    description: 'Differentiates bacteria into Gram-positive (purple) and Gram-negative (pink) by staining and decolorization.',
     difficulty: 'Medium',
     duration: '30 min',
-    image: 'https://images.unsplash.com/photo-1581093588401-d61b21bd0cfb?auto=format&fit=crop&w=900&q=80',
+    image: GS1,
     color: 'bg-amber-100 text-amber-700',
     route: '/lab',
   },
   {
-    title: 'Bacterial Culture Growth',
-    description: 'Study the growth of bacteria on different culture media and understand colony morphology.',
+    title: 'Catalase Test',
+    description: 'Detects the presence of catalase enzyme by observing bubble formation upon H₂O₂ exposure.',
     difficulty: 'Easy',
-    duration: '20 min',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80',
+    duration: '15 min',
+    image: CS1,
     color: 'bg-emerald-100 text-emerald-700',
     route: '/lab',
   },
   {
-    title: 'Morphology Identification',
-    description: 'Identify different bacterial shapes and arrangements under the microscope.',
+    title: 'Triple Sugar Iron (TSI)',
+    description: 'Differentiates bacteria by carbohydrate fermentation and hydrogen sulfide production in a slant/tube medium.',
     difficulty: 'Hard',
     duration: '40 min',
-    image: 'https://images.unsplash.com/photo-1581092160134-0f47319b7de5?auto=format&fit=crop&w=900&q=80',
-    color: 'bg-red-100 text-red-700',
+    image: sugarImg,
+    color: 'bg-rose-100 text-rose-700',
     route: '/lab',
   },
 ]
